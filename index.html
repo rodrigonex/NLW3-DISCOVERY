@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Happy</title>
+        <link rel="stylesheet" href="./public/css/style.css">
+        <link rel="stylesheet" href="./public/css/page-landing.css">
+        <link rel="stylesheet" href="./public/css/animations.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+        <link rel="icon" href="./public/images/logo-icon.png">
+    </head>
+    <body>
+        <div id="page-landing">
+            <div id="container">
+                <header>
+                    <img  id="logo" class="animation-up" src="./public/images/logo.svg" alt="Logomarca Happy">
+                    <div class="location animation-up">
+                        <strong>Belo Horizonte</strong>
+                        <p>Minas Gerais</p>
+                    </div>
+                </header>
+                <Main>
+                    <h1 class="animation-up">Leve felicidade para o mundo</h1>
+                    <section class="visit">
+                        <p class="animation-up">Visite orfanatos e mude o dia de muitas crianças</p>
+        
+                        <a href="./orphanages.html">
+                            <img src="./public/images/arrow.svg" class="animation-up" alt="Ir para o mapa">
+                        </a>
+                    </section>
+                </Main>
+            </div><!-- fim container-->
+        </div><!-- fim page-landing-->
+    </body>
+</html>
+
+
+<!--
+
+const icon = L.icon({
+    iconUrl: "./public/imagens/map-marker.svg",
+    iconSize: [58, 68],
+    iconAnchor: [29, 68],
+    popupAnchor: [170, 2]
+}).setContent('Lar das meninas <a href="orpanage.html?id=1" class="choose-orphanage"> <img src="./public/images/arrow-white.svg"></a>')
+
+//creat popup overlay
+const popup = L.popup({
+    closeButton:false,
+    className: 'map-popup',
+    minWith: 240,
+    minHeight: 240
+}).
+
+// create and add maker
+L.marker([-19.9247476,-43.9190534], { icon })
+.addTo(map)
+.bindPopup(popup);
+
+-->

@@ -1,0 +1,107 @@
+#page-orphaneges{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+}
+
+#mapid{
+    width: 100%;
+    height: 100%;
+
+    animation-delay: 300ms; 
+}
+
+aside{
+    width: clamp(25rem, 25vw, 44rem);
+    background: linear-gradient(329.54deg, #15b6d6 0%, #15d6d6 100%);
+    padding: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside h2{
+    margin-top: 1.6rem;
+
+    font: 800 2.5rem/1.1 'Nunito', sans-serif;
+}
+
+aside p{
+    margin-top: 1.6rem;
+    font: 400 1.2rem/1.1 'Nunito', sans-serif;
+}
+
+aside footer{
+    margin-top: .2rem; 
+}
+
+.create-orphanage {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+
+    width: 3.4rem;
+    height: 3.4rem;
+    background: #15c3d6;
+    border: 0;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 200ms;
+    z-index: 4;
+}
+
+a.create-orphanege:hover {
+    background: #17d6eb;
+}
+
+.leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+}
+
+.leaflet-popup-content{
+    color: #0089a5;
+    margin: .8rem .5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leaflet-popup-content a{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #15c3d6;
+    box-shadow: 17.2828px 27.65px 41.48px rgba(23, 142, 166, 0.16);
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color .2s;
+}
+
+.leaflet-popup-tip{
+    display: none;
+}
+
+.leaflet-container{
+    font: 600 1rem/1.1 'Nunito', sans-serif;
+    z-index: 1;
+}
+
+.delay{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+
+
