@@ -20,7 +20,7 @@ const popup = L.popup({
     className: 'map-popup',
     minWidth: 240,
     minHeight: 240,
-}).setContent('Lar das Meninas <a href="orphanege.html?id=1" class="choose-orphanege"> <img src="./public/images/arrow-white.svg"></a>')
+}).setContent('Lar das Meninas <a href="orphanage.html" class="choose-orphanege"> <img src="./public/images/arrow-white.svg"></a>')
 
 
 // create and add maker
